@@ -2,18 +2,18 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: 
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 水华
+subtitle: ""
+description: "CapatialFei的个人博客"
+keywords: 
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2015
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: myxinyue/myxinyue.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -54,12 +54,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Xiaofei C
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: myxinyue
+location: Xi'an, China
+email: myxinyue@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -138,30 +138,30 @@ comments_provider: giscus
 disqus:
     username: 
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# gitment:
+#     owner: mzlogin
+#     repo: blog-comments
+#     oauth:
+#         client_id: d2e1cbbd298958076462
+#         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# gitalk:
+#     owner: mzlogin
+#     repo: blog-comments
+#     clientID: d2e1cbbd298958076462
+#     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # utterances 配置参考：https://utteranc.es/
-utterances:
-    repo: mzlogin/blog-comments
+# utterances:
+#     repo: mzlogin/blog-comments
 # beaudar 配置参考：https://beaudar.lipk.org/
-beaudar:
-    repo: mzlogin/blog-comments
+# beaudar:
+#     repo: mzlogin/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: myxinyue/blog-comments
+    repo-id: R_kgDOIYn5UA
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: DIC_kwDOIYn5UM4CSaRV
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
