@@ -23,7 +23,9 @@ permalink: /about/
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
 </li>
 {% endif %}
+-->
 </ul> 
+
 ## Skill Keywords
 
 {% for skill in site.data.skills %}
