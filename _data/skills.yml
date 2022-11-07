@@ -3,17 +3,15 @@
       - Java
       - C++
       - Python
-      - Design Patterns
 
-- name: Mobile Developer Keywords
+- name: JavaWeb
   keywords:
-      - Android
-      - Reverse Engineering
+      - Mysql
+      - Ajax
+      - Element
+      - Mybaits
+      - Tomcat 
 
-- name: Windows Developer Keywords
+- name: 项目
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - 商城
