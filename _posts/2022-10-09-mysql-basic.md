@@ -1,9 +1,9 @@
 ---
 layout: post
 title: mysql基础
-categories: [MySQL, Javaewb]
+categories: MySQL
 description: 介绍数据库MySQL的基本使用
-keywords:MySQL,sql
+keywords: MySQL,sql
 ---
 
  MySQL基础
