@@ -2,13 +2,11 @@
 layout: post
 title: mysql基础
 categories: MySQL
-description: 介绍数据库MySQL的基本使用
+description: 介绍数据库MySQL的基本使用。
 keywords: MySQL,sql
 ---
 
  MySQL基础
-
-**今日目标：**
 
 > * 完成MySQL的安装及登陆基本操作
 > * 能通过SQL对数据库进行CRUD
@@ -47,7 +45,7 @@ keywords: MySQL,sql
 
 在电脑上安装了数据库管理系统后，就可以通过数据库管理系统创建数据库来存储数据，也可以通过该系统对数据库中的数据进行数据的增删改查相关的操作。我们平时说的MySQL数据库其实是MySQL数据库管理系统。
 
-<img src="..\images\blog\image-20210721185923635.png" alt="image-20210721184354001" style="zoom:70%;" />
+<img src="/images/posts/mysql/image-20210721185923635.png" alt="image-20210721184354001" style="zoom:70%;" />
 
 通过上面的描述，大家应该已经知道了 `数据库管理系统` 和 `数据库` 的关系。那么有有哪些常见的数据库管理系统呢？
 
