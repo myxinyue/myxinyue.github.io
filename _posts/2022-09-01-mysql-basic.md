@@ -6,16 +6,11 @@ description: 介绍数据库MySQL的基本使用。
 keywords: MySQL,sql
 ---
 
- MySQL基础
-
-> * 完成MySQL的安装及登陆基本操作
-> * 能通过SQL对数据库进行CRUD
-> * 能通过SQL对表进行CRUD
-> * 能通过SQL对数据进行CRUD
-
-。
 
 
+
+
+数据库相关基础。
 
 ## 1，数据库相关概念
 
