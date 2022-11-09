@@ -44,7 +44,7 @@ comments: false
     </div>
 </section>
 <!-- /.banner -->
-<secti天on class="container content">
+<section class="container content">
     <div class="columns">
         <div class="column two-thirds" >
             <ol class="repo-list">
@@ -56,9 +56,9 @@ comments: false
                   <a href="{{ site.url }}{{ post.url }}"><span class="top-most-flag">[置顶]</span>{{ post.title }}</a>
                 </h3>
                 <p class="repo-list-description">
-                  <!--  句号分割 -->
-                <!-- {{ post.excerpt | strip_html | strip }}  -->
-                {{post.description}}
+                <!-- {{ post.excerpt | strip_html | strip }} -->
+
+                  {{page.description}}
                 </p>
                 <p class="repo-list-meta">
                 <span class="meta-info">
@@ -84,7 +84,7 @@ comments: false
                 </h3>
                 <p class="repo-list-description">
                 <!-- {{ post.excerpt | strip_html | strip }} -->
-                 {{post.description}}
+                {{page.description}}
                 </p>
                 <p class="repo-list-meta">
                 <span class="meta-info">
