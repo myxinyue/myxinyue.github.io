@@ -3,7 +3,7 @@ layout: page
 title: Fragments
 description: fragments 索引页
 keywords: fragments
-comments: false
+comments: true
 menu: 片段
 permalink: /fragments/
 ---
@@ -37,7 +37,7 @@ jQuery(function() {
     if (tag == undefined || tag === '') {
         return;
     }
-
+    
     $(".listing-item").each(function() {
         if ($(this).attr('tags').indexOf(tag) < 0) {
             $(this).css('display', 'none');
