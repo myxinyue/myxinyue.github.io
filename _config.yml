@@ -8,7 +8,7 @@ title: 水华
 subtitle: ""
 description: "CapatialFei的个人博客"
 keywords: 
-timezone: Asia/Shanghai
+timezone: Asia/Shanghai  
 encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2015
@@ -28,7 +28,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-        start_date: 2020-05-03
+        start_date: 2022-11-08
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -73,13 +73,13 @@ navs:
     href: /categories/
     label: 分类
 
-   -
-    href: /archives/
-    label: 归档
+   # -
+   #  href: /archives/
+   #  label: 归档
 
-   -
-    href: /open-source/
-    label: 开源
+   # -
+   #  href: /open-source/
+   #  label: 开源
 
   -
     href: /wiki/

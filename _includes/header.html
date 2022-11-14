@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/globals/responsive.css">
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/posts/index.css">
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/vendor/octicons/octicons/octicons.css">
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
     {% assign highlight_base_url = 'https://mazhuang.org/rouge-themes/dist' %}
     {% if site.cdn.jsdelivr.enabled %}
     {% assign highlight_base_url = 'https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@master/dist' %}
@@ -96,8 +97,9 @@
     <header class="site-header">
         <div class="container">
 
-            <h1><a href="{{ site.url }}/" title="{{ site.title }}"><span class="octicon octicon-mark-github">  </span> <!-- {{ site.title }} -->
-               {{https://v1.jinrishici.com/all.txt}}
+            <h1><a href="{{ site.url }}/" title="{{ site.title }}"><span class="octicon octicon-mark-github">  </span> 
+               <!--  {{site.title}} -->
+                <span id="jinrishici-sentence"></span> 
             </a></h1>
             <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
               <span class="icon-bar"></span>
@@ -110,6 +112,6 @@
                 {% endfor %}
                 <a class="mobile-hidden" href="{{ site.url }}{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span></a>
             </nav>
-        </div>
+        </div>     
     </header>
     <!-- / header -->
