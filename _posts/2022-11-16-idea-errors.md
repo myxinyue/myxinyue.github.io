@@ -6,8 +6,6 @@ description: 整理常见的maven项目构建等idea出错怎么更改
 keywords: Idea , 项目
 ---
 
-
-
 ### idea  spring构建中无效发行版本17 
 
 此时我们需要修改项目jdk版本为1.8（不一定非得是，但是推荐）
