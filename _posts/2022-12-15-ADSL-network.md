@@ -22,7 +22,7 @@ ADSL采用频分复用技术把普通的电话线分成了电话、上行和下�
 
 
 
-![img](images/posts/2022-12-15-ADSL-network/v2-b0dc9698ddc39b6da9e5506fdfd3a886_720w.jpeg)
+![img](/images/posts/2022-12-15-ADSL-network/v2-b0dc9698ddc39b6da9e5506fdfd3a886_720w.jpeg)
 
 
 
