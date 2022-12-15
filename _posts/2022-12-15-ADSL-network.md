@@ -1,12 +1,10 @@
 ---
 layout: post
-title:ADSL介绍
+title: ADSL介绍
 categories: [network]
 description: ADSL介绍
 keywords: network,网络
 ---
-
-
 
 ADSL是Asymmetric Digital Subscriber Line的简称，中文名叫做：非对称数字用户线路 ，亦可称作非对称数字用户环路。是一种新的数据传输方式，它因为上行和下行带宽不对 称，因此称为非对称数字用户线环路。
 
