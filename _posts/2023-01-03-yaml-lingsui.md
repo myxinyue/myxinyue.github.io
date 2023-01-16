@@ -47,27 +47,31 @@ student:
 
 **yaml基本语法：**
 
-![img](/images/posts/新建 Markdown/v2-38434425d8ff4701f8a62e70be4914f4_720w.webp)
+- 大小写敏感
+- 使用缩进表示层级关系
+- 缩进不使用tab ，只是用空格
+- 所进的空格不重要，只要相同层级的元素对其即可
+- **#** 表示解释
 
 **yaml基本数据类型:**
 
 yaml文件支持的数据类型不多，但也足够了。可以通过嵌套来解决不层级间的关系。
 
-![img](/images/posts/新建 Markdown/v2-bc2c5a3ef4db67bd9deb1cd0722885c4_720w.webp)
+
 
 **几个示例：**
 
 key-value对像
 
-![img](/images/posts/新建 Markdown/v2-bd312d88bfd853af34abb57ecb2d1491_720w.webp)
+![2023-01-05_165757](/images/posts/2023-01-03-yaml-lingsui/2023-01-05_165757.png)
 
 嵌套的key-value对像
 
-![img](/images/posts/新建 Markdown/v2-8d10cee88dbb925b3e2f1971affe39d5_720w.webp)
+![2023-01-05_165815](/images/posts/2023-01-03-yaml-lingsui/2023-01-05_165815.png)
 
 包含数组的key-value对像
 
-![img](/images/posts/新建 Markdown/v2-380f82a1d72840688ae4af3dc0554f3b_720w.webp)
+![2023-01-05_165829](/images/posts/2023-01-03-yaml-lingsui/2023-01-05_165829.png)
 
 注意：**空格，空格，空格！**
 
